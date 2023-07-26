@@ -1,0 +1,19 @@
+{
+  "name": "lista-mercado-backend",
+  "version": "1.0.0",
+  "description": "Backend da lista de mercado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhonnee101/Lista-Mercado-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jhonnee101/Lista-Mercado-backend/issues"
+  },
+  "homepage": "https://github.com/Jhonnee101/Lista-Mercado-backend#readme"
+}
