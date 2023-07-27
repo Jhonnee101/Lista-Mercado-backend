@@ -21,6 +21,8 @@ export async function registerUserHandler(req: Request, res: Response, next: Nex
 
     await registerUser(userModel)
 
+    // TODO: add lib and generate JWT
+
     const token = ""
 
     return res.json({ token })
