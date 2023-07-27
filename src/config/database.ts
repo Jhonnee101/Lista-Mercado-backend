@@ -1,4 +1,4 @@
-const knex = require('knex')
+import knex from "knex";
 
 const knexInstace = knex({
   client: 'mysql',
@@ -6,11 +6,10 @@ const knexInstace = knex({
     host: 'localhost',
     port: 3306,
     user: 'user',
-    password: 'your_database_password',
     password: 'password',
     database: 'cartManager'
   },
   pool: { min: 0, max: 20 }
 })
 
-module.exports = knexInstace
+export default knexInstace
