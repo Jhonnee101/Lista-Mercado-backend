@@ -20,6 +20,11 @@ export const fieldTooLong = (fieldName: string, max: number): ApiError => ({
   message: `Campo "${fieldName}" é muito longo (máximo ${max})`
 });
 
+export const fieldTooShort = (fieldName: string, max: number): ApiError => ({
+  httpCode: 400,
+  message: `Campo "${fieldName}" é muito curto (mínimo ${max})`
+});
+
 export const resourceNotFound = (resourceName: string, identifier: any): ApiError => ({
   httpCode: 404,
   message: `Recurso "${resourceName}" com identificador "${identifier}" não foi encontrado`
